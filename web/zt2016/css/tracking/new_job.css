@@ -1,0 +1,27 @@
+.btn-info {
+	margin-top:10px;
+}
+
+#client_dropdown_form, #contact_dropdown_form {
+	display:inline;
+}
+
+.item-group {
+	min-width: 100%;
+	background-color: #f9f9f9;
+	border-radius: 4px 4px 0 0;
+	float:left;
+	padding-bottom:1em;
+	margin-bottom:1em;
+	margin-right: .2em;
+}
+
+.item-group .col-sm-4 .form-control{
+	text-align:right;	
+}
+
+.well {
+	height:10em;
+	overflow-y: auto;
+	resize: vertical;
+}

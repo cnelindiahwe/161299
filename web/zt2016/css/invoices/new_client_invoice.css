@@ -1,0 +1,44 @@
+#client_dropdown_form {
+	margin-bottom:1em;
+}
+
+
+.dates-column #invoice-number {
+	  float:right;
+	  font-size: 1.2em;
+	  font-weight:bold;
+	  color:#ad2abb;
+}
+
+.dates-column .form-control {
+	   display: inline;
+	   width:auto;
+	   text-align: right;
+	   float:right;
+	   margin:0;
+	   margin-top:-.35em;
+	   height:auto;
+	   padding:.2em 1em;
+}
+
+.totals-column .badge  {
+	   font-size:11pt;	
+}
+
+#originators_list {
+	white-space: normal;
+	word-wrap:keep-all;
+	word-break:keep-all;
+	background-color: #fff;
+	font-family:inherit;
+	overflow-y:auto;
+}
+
+#new-invoice-entries tr:hover>td{
+    /*background-color: whitesmoke !important;*/
+   background-color: #dfdfdf !important;
+}
+
+.well {
+	margin-top:20px;
+}

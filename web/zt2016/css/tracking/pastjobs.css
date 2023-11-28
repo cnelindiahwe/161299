@@ -1,0 +1,86 @@
+.tooltip > .tooltip-inner {
+      background-color: #475AA3; 
+      color: #FFFFFF; 
+      padding: 8px 14px;
+      font-size: 14px;
+  }
+
+.tooltip.top > .tooltip-arrow {
+      border-top: 5px solid #475AA3;
+}
+
+
+th {
+	text-transform: uppercase;
+	font-stretch: condensed;
+	font-size:.85em;
+	color:#636363;
+}
+
+
+
+#past-jobs-panel .panel-heading h4,
+#bottom-panel .panel-heading h4 {
+	width :8em;	
+}
+
+#past-jobs-panel  .panel-heading .form-control,
+#bottom-panel .panel-heading .form-control {
+	display:inline !important;
+	width :auto !important;
+	margin: 0 1em 0 .5em;
+}
+
+#past-jobs-panel .form-group, 
+#bottom-panel .form-group{
+	margin-bottom:0px !important;
+}    
+
+#past-jobs-panel  .form-control,
+#bottom-panel .form-control{
+	margin-bottom:5px !important;
+}    
+
+#past_jobs_table a {
+	color:#313131 !important;
+}
+
+
+/* calendar view */
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 2px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table>tbody>tr>td {border:0 !important;}
+
+.table>tbody>tr.weekdays{
+	border-top: 1px solid #ddd !important;
+	border-bottom: 1px solid #ddd !important;
+
+}
+
+.ZOWmonth-table .CalendarDay a{
+		display:block;
+	    background-color:lightgray;
+		text-align:center;
+		color:#444;
+}
+
+
+.ZOWmonth-table ul{
+		padding:0;
+}
+
+.ZOWmonth-table ul li{
+	    list-style-type: none;
+		font-size:0.8em;
+}
+
+.weekdays{
+	font-style: italic;
+	font-size:0.8em;
+}

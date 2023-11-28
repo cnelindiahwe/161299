@@ -1,0 +1,466 @@
+/* CSS Document */
+
+/* ################# general interface (css3) ################# */
+body .zowtrakui-topbar {
+			background-color:#60809F;/* #0099FF;*/
+				
+			background-image: linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+			background-image: -o-linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+			background-image: -moz-linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+			background-image: -webkit-linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+			background-image: -ms-linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+			
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0.15, rgb(102,174,212)),
+				color-stop(0.93, rgb(74,136,180))
+			);
+
+}
+
+	body .zowtrakui-topbar a{
+		background-color:#426d8d;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+
+	body 	.zowtrakui-topbar a:hover{
+			background-color:#253c4e;
+		}
+		
+	.zowtrakui-topbar h1 {
+			color:#34566f;
+			margin:.1em 1em 0 0;
+			font-size:1.4em;
+			float:left;
+			color:#fff;
+		}
+		
+	.zowtrakui-topbar h1 em{
+			font-weight:normal;
+			font-style:normal;
+			font-size:80%;
+		}
+		
+	.zowtrakui-topbar h2 {
+			color:#34566f;
+			margin:.3em 1em 0 0;
+			font-size:1.2em;
+			float:left;
+			color:#fff;
+		}
+
+	.zowtrakui-topbar form label{
+			color:#fff;
+			display:inline;
+			margin:0;
+			line-height:32px;
+		}
+
+/* ################# general page specific ################# */
+
+
+	#pageOutput .zowtrakui-topbar, #pageInput .zowtrakui-topbar {
+		margin:0;
+		padding:.5em 1em;
+		height:2em;
+	}
+
+	a.activejob {font-weight:bold;}
+
+/* ################# trackingnew ################# */
+
+	/* ### New job buttons  ### */
+	
+
+		 .zowtrakui-topbar a {
+			display:block;
+			float:left;
+			margin:.2em 1em 0 0;
+			padding:0 1em;
+			line-height:1.6em;
+			/*background-color:#8ebeec;*/
+			color:#fff;
+			font-size:100%;
+		}
+		
+			.zowtrakui-topbar a.logout {
+				float:right;
+			}
+
+		 .zowtrakui-topbar form {
+			float:left;
+				padding:0;
+		}
+
+		
+/* ### Ongoing  ### */
+#pageOutput{border:0;}
+
+#pageOutput #ongoing {margin:0;}
+
+#ongoing h3 a {border:0;display:inline;}
+
+#ongoing h3 a {border:0;display:inline;}
+
+#ongoing a {
+	margin:0;
+	padding-left:1em;
+	border-top:1px solid #333;
+	color:#fff;
+	font-size:115%;
+}
+
+	#ongoing a.tentative{
+		background-color:#aaa;
+		border-top:1px solid #666;
+		}
+		#ongoing a.tentative:hover{
+			background-color:#888;
+			border-top:1px solid #666;
+			}
+		#ongoing a.tentative.activejob{
+			background-color:#666;
+			}
+		
+
+	#ongoing a.scheduled {
+		background-color:#669900;
+		border-top:1px solid #008800;
+		}
+		#ongoing a.scheduled:hover {
+			background-color:#447700;
+			}
+		#ongoing a.scheduled.activejob {
+			background-color:#225500;
+			}
+	#ongoing a.inprogress{
+		background-color:#CC9900;
+		border-top:1px solid #996600;
+		}
+		#ongoing a.inprogress:hover {
+			background-color:#bb8800;
+			}
+		#ongoing a.inprogress.activejob {
+			background-color:#aa7700;
+			}
+	#ongoing a.inproofing {
+		background-color:#AD3434;
+		border-top:1px solid #660000;
+		}
+		#ongoing a.inproofing:hover{
+			background-color:#9c2323;
+			}
+		#ongoing a.inproofing.activejob{
+			background-color:#803434;
+			}
+		
+	
+
+/* ### pastJobs  ### */
+
+#pastJobs {margin:0;}
+
+
+	#pastJobs table {
+		border:0;
+		border-collapse:collapse !important;
+		position:relative;
+		
+		}
+			
+		#pastJobs td, #pastJobs th {
+			padding:.2em 1em;
+			text-align:center;
+		}
+	
+		#pastJobs th {
+			background-color:#ddd;
+			color:#666;
+			font-weight:normal;
+			font-style:italic;
+			white-space:nowrap;
+		}		
+	
+			#pastJobs .tableheaderhighlight {
+				background-color:#ccc !important;
+				cursor:pointer;
+			}
+	
+			#pastJobs thead tr .header:hover, #pastJobs thead tr .header:hover {
+				color:#fff;
+				cursor: pointer;
+			}
+	
+			#pastJobs thead tr .headerSortUp, #pastJobs thead tr .headerSortUp  {
+				background-position:1.2em -25px;
+				background-color:#bbb;			}
+			#pastJobs thead tr .headerSortDown, #pastJobs thead tr .headerSortDown {
+				background-position:1.2em -55px;
+				background-color:#bbb;
+			}	
+		#pastJobs thead tr .header, #pastJobs thead tr .header {
+			background-image: url(../img/sprites/table_sort_sprites.gif);
+			background-repeat: no-repeat;
+			background-position:1.2em 5px;
+	
+		}
+				
+				
+		#pastJobs tbody {
+				height:100%;
+				overflow-y:scroll;
+				overflow-x:hidden;
+				}		
+	
+			.tracking #calendar tbody {
+				overflow:auto;
+				}		
+	
+	
+		/*Shaded rows*/		
+			#pastJobs tr.even {
+				background-color:#f1f1fd;
+				}
+	
+		/*Shaded rows*/		
+			#pastJobs tr.current {
+				background-color:#009900;
+				color:white;
+				}
+	
+	
+	
+		#pastJobs td,#pastJobs th {
+			padding:.25em 1em;
+			border:0;
+			text-align:left;
+			}		
+	
+		#pastJobs td {
+			text-align:left;
+			height:2em !important;
+			}		
+			#pastJobs table td.activejob{
+				background-color:#ccc;
+				}
+
+			#pastJobs td a {
+			display:block;
+			text-decoration:none;
+			color:#555;
+			}
+				#pastJobs table td.activejob a{
+					font-weight:bold;
+					color:#222;
+					}
+		#pastJobs .slides {
+			text-align:center;
+			
+			}
+
+			
+
+			
+	/* ################# traveller ################# */		
+			
+		.traveller {
+			position:absolute !important;
+			top:5em;
+			left:12em;
+			width:640px;
+			background-color:#ccddcc;
+			padding:0;
+			-moz-box-shadow: 0px 8px 14px  #555;
+			-webkit-box-shadow: 0px 8px 14px #555;
+			box-shadow: 0px 8px 14px #555;
+			-moz-border-radius:8px;
+			-webkit-border-radius: 8px;
+			}
+		.traveller .formbuttons  {
+			height:2.7em;
+			margin-top:0;
+			clear:right;
+			padding-top:.5em;
+			
+			-moz-border-radius-topright:8px;
+			-webkit-border-top-right-radius: 8px;
+			border-top-right-radius: 8px;
+			-moz-border-radius-topleft:8px;
+			-webkit-border-top-left-radius: 8px;
+			border-top-left-radius: 8px;
+
+	}
+	.traveller form h1 {
+			color:#34566f;
+			padding:.4em .8em;
+			margin:0;
+			font-size:1.4em;
+			float:left;
+			color:#fff;
+		}
+	
+		.traveller .formbuttons a  {
+		display:block;
+		float:left;
+		color:white;
+		padding:.25em .5em;
+		margin-top:.5em;
+		margin-right:.5em;
+		}
+	.traveller form input.submitButton {
+		top:.3em;
+	}
+
+	.traveller .formbuttons a:hover {
+		background-color:#253c4e;
+	}		
+	
+	.traveller #entryForm input, .traveller #entryForm select, .traveller #entryForm textarea{
+		color:#333;
+		background-color:#e0f3e0;
+	}
+	.traveller #entryForm input{
+		border-color:#e0f3e0;
+	}
+	
+	
+	
+	.traveller label, .traveller .viewdatein {color:#6e776e;font-size:85%;}
+	
+		.traveller label[for=ClientNotes],
+		.traveller label[for=ContactNotes],
+		.traveller label[for=ZOWNotes]{
+			display:block;
+			width:550px;
+		}
+	
+	.traveller form#entryForm input.submitButton {
+		margin-right:4em;
+		background-color:#426d8d;
+		border:1px solid #426d8d;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	
+	.traveller form#entryForm input.submitButton:hover {
+		background-color:#253c4e;
+		border:1px solid #253c4ef;
+	}
+	
+	.traveller form#entryForm fieldset div {
+		float:left;
+	}
+	
+	.traveller .FileName {
+		width:590px;
+	}
+	
+		.traveller .Originator {
+		width:15.5em;
+	}
+	
+	.traveller .viewdatein{
+		clear:both;
+		display:block;
+		margin:2em 0 0 1.25em;
+	}
+	
+	.TimeZoneOut,.TimeZoneIn{
+		width:90px;
+	}
+	.notesfield{
+		width:100%;
+	}
+	
+	.traveller form a.cancelEdit {float:right;}
+	
+	.traveller	.clientmaterials
+		{
+			margin: .25em 1em;
+			border: 0;
+			color:#333;
+		}
+						
+	.traveller .loading {
+						background-image:url(../img/anims/loading.gif);
+						}
+	
+	
+		
+	.loading {height:200px;
+						background-image:url(../img/anims/loading.gif);
+						border:1px solid red;}
+						
+						
+						
+						
+						
+						
+						
+#activeContacts {
+	float:left;
+}
+	#activeContacts p{
+		font-size:85%;
+		font-style:italic;
+		color:#333;
+		padding-left:1em;
+	}
+
+
+	#activeContacts ul{
+		padding:.2em .9em;
+		margin:0;
+		list-style:none;
+	}
+		#activeContacts li{
+			padding:.2em .1em;
+		}
+			#activeContacts li.highlight{
+				background-color:#dfdfdf;
+			}
+	
+		#activeContacts li a{
+			color:#444;
+		}
+
+			
+	/* ################# month view ################# */		
+	
+		#monthview  tr {
+			border-bottom:1px solid #ddd;
+		}
+			#monthview  tr.weekdays {
+				color: #aaa;
+				font-style:italic;
+			}
+	
+		#monthview  td {
+			width:10em;
+			vertical-align:top;
+			}
+			
+		.CalendarDay {color:#aaa;}
+
+
+	/* ################# clients ################# */		
+	
+		#clientcontrol {padding:0;}
+		
+		
+		
+	/* ################# contacts ################# */		
+		.sidebar {width:150px;float:left;background-color:#fff;}
+			.sidebar a {display:block;}
+			
+			#contactForm { margin-top:4em;}
+			#contactForm fieldset, #contactForm h4{clear:none;}
+			.clearfix {clear:both;}
+			
+			
+	/* ################# clients ################# */		
+	
+		.monthtotal {margin-left:1em;}

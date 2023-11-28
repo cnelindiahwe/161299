@@ -1,0 +1,28 @@
+#client_invoices_table {
+	width:100%;
+	/*display:none;*/
+}
+
+#clients_table_filter {
+	   text-align: left;	
+}
+
+#clients_table_filter label{
+	    margin-left:-10px;	
+}
+
+#clients_table_filter input{
+	    margin-left:10px;	
+}
+#clients_table_info{
+    text-align: right;
+}
+
+
+#clients_table tr:hover>td{
+   background-color: #dfdfdf !important;
+}
+
+.panel-heading .btn {
+    margin-right: .5em;
+}

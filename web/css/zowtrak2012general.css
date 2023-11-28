@@ -1,0 +1,28 @@
+	html {
+		font-family: Calibri,Arial, Helvetica, sans-serif;
+		font-size:90%;
+	}
+	
+/* ######################### General rules ########################### */
+
+	a {text-decoration:none;}
+	
+	
+	
+	h1,h2,h3,h4,h5,h6 {font-weight:bold;}
+	h1 {font-size:160%;}	
+	h2 {font-size:150%;}	
+	h3 {font-size:120%;padding:.5em 0;}	
+	h4 {font-size:110%;padding:.5em 0;}	
+
+	.subheader {font-size:90%;
+				color:#666;}	
+
+
+	.non-bold {font-weight:normal;}	
+	
+/* ######################### Forms ########################### */
+	
+		body input[type="submit"] {
+			border:0;
+		}

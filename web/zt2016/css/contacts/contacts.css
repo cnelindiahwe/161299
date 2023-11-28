@@ -1,0 +1,35 @@
+#contacts_table {
+	width:100%;
+	/*display:none;*/
+}
+
+#contacts_table_filter{
+    text-align: left;
+}
+
+
+#contacts_table_filter label{
+	    margin-left:-10px;	
+}
+
+#contacts_table_filter input{
+	    margin-left:10px;	
+}
+
+#contacts_table_info{
+    text-align: right;
+}
+
+
+#contacts_table tr:hover>td{
+   background-color: #dfdfdf !important;
+}
+
+.panel-heading .btn {
+    margin-right: .5em;
+}
+
+.inactive-contact td {
+	color:#ff0000;
+	text-decoration: line-through;
+}

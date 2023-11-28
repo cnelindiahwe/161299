@@ -1,0 +1,61 @@
+label {
+	font-size: 85%;
+	color:#888;
+}
+
+input, textarea, select  {
+	margin-bottom:1em;
+}
+
+
+textarea {
+	resize:vertical;
+}
+
+
+#client_dropdown_form, #contact_dropdown_form {
+	display:inline;
+}
+
+.item-group {
+	min-width: 100%;
+	background-color: #f9f9f9;
+	border-radius: 4px 4px 0 0;
+	float:left;
+	padding-bottom:1em;
+	margin-bottom:1em;
+	margin-right: .2em;
+}
+
+
+/* Page counts details */
+
+.item-group .col-sm-4 {
+	padding-left: 6px ;
+	padding-right:6px;
+	
+}
+
+.item-group .col-sm-4:nth-child(3) {
+	padding-left: 15px !important;
+	padding-right: 0px !important;
+	
+}
+
+ .item-group .col-sm-4:nth-child(5) {
+	padding-left: 0px !important;
+	padding-right:15px !important;
+	;
+	
+}
+
+.item-group .col-sm-4 .form-control{
+	text-align:right;	
+}
+
+.well {
+	height:10em;
+	overflow-y: auto;
+	resize: vertical;
+}
+

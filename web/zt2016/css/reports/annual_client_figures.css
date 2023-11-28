@@ -1,0 +1,12 @@
+#annualdatatable {
+
+  table-layout: fixed;
+
+}
+
+th {
+    text-transform: uppercase;
+    font-stretch: condensed;
+    font-size: .85em;
+    color: #636363;
+}

@@ -1,0 +1,27 @@
+
+
+table {
+	   font-size:10pt;	
+}
+
+#originators_list {
+	white-space: normal;
+	word-wrap:keep-all;
+	word-break:keep-all;
+	background-color: #fff;
+	font-family:inherit;
+	overflow-y:auto;
+}
+
+
+.totals-column .badge {
+	   font-size:11pt;	
+}
+
+textarea{
+	margin-bottom:1em;
+}
+
+#InvoiceDate{
+    width: 156px;
+}

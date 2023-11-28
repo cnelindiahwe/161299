@@ -1,0 +1,93 @@
+[26-Oct-2022 19:42:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/zowtempa/public_html/zowtrak2012/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/zowtempa/public_html/zowtrak2012/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/zowtempa/public_html/zowtrak2012/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(345): DB(Array, NULL)
+#3 /home/zowtempa/public_html/zowtrak2012/system/libraries/Session.php(87): CI_Loader->database()
+#4 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(1098): CI_Session->__construct()
+#5 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(974): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(215): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home/zowtempa/public_html/zowtrak2012/application/core/MY_Controller.php(8): CI_Loader->library('session')
+#8 /home/zo in /home/zowtempa/public_html/zowtrak2012/system/database/drivers/mysql/mysql_driver.php on line 91
+[26-Oct-2022 19:42:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/zowtempa/public_html/zowtrak2012/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/zowtempa/public_html/zowtrak2012/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/zowtempa/public_html/zowtrak2012/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(345): DB(Array, NULL)
+#3 /home/zowtempa/public_html/zowtrak2012/system/libraries/Session.php(87): CI_Loader->database()
+#4 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(1098): CI_Session->__construct()
+#5 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(974): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(215): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home/zowtempa/public_html/zowtrak2012/application/core/MY_Controller.php(8): CI_Loader->library('session')
+#8 /home/zo in /home/zowtempa/public_html/zowtrak2012/system/database/drivers/mysql/mysql_driver.php on line 91
+[26-Oct-2022 19:42:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/zowtempa/public_html/zowtrak2012/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/zowtempa/public_html/zowtrak2012/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/zowtempa/public_html/zowtrak2012/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(345): DB(Array, NULL)
+#3 /home/zowtempa/public_html/zowtrak2012/system/libraries/Session.php(87): CI_Loader->database()
+#4 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(1098): CI_Session->__construct()
+#5 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(974): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(215): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home/zowtempa/public_html/zowtrak2012/application/core/MY_Controller.php(8): CI_Loader->library('session')
+#8 /home/zo in /home/zowtempa/public_html/zowtrak2012/system/database/drivers/mysql/mysql_driver.php on line 91
+[26-Oct-2022 19:43:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/zowtempa/public_html/zowtrak2012/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/zowtempa/public_html/zowtrak2012/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/zowtempa/public_html/zowtrak2012/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(345): DB(Array, NULL)
+#3 /home/zowtempa/public_html/zowtrak2012/system/libraries/Session.php(87): CI_Loader->database()
+#4 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(1098): CI_Session->__construct()
+#5 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(974): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home/zowtempa/public_html/zowtrak2012/system/core/Loader.php(215): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home/zowtempa/public_html/zowtrak2012/application/core/MY_Controller.php(8): CI_Loader->library('session')
+#8 /home/zo in /home/zowtempa/public_html/zowtrak2012/system/database/drivers/mysql/mysql_driver.php on line 91
+[12-Apr-2023 01:16:12 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/zowtrakc/public_html/system/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home2/zowtrakc/public_html/system/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'zowtempa_zowtra...')
+#1 /home2/zowtrakc/public_html/system/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home2/zowtrakc/public_html/system/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home2/zowtrakc/public_html/system/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home2/zowtrakc/public_html/system/core/Loader.php(345): DB(Array, NULL)
+#5 /home2/zowtrakc/public_html/system/libraries/Session.php(87): CI_Loader->database()
+#6 /home2/zowtrakc/public_html/system/core/Loader.php(1098): CI_Session->__construct()
+#7 /home2/zowtrakc/public_html/system/core/Loader.php(974): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#8 /home2/zowtrakc/public_html/system/core/Loader.php(215): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#9 /home2/zowtrakc/public_html/application/controllers/main.php(25): CI_Loader->library('session')
+#10 /home2/zowtrakc/public_html/system/core/CodeIgniter.php(359): Main->index()
+#11 /home2/zowtrakc/public_html/index.php(201): require_once('/home2/zowtrakc...')
+#12 {main}
+  thrown in /home2/zowtrakc/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 76
+[17-Apr-2023 05:05:25 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'where clause' in /home2/zowtrakc/public_html/system/database/drivers/mysqli/mysqli_driver.php:179
+Stack trace:
+#0 /home2/zowtrakc/public_html/system/database/drivers/mysqli/mysqli_driver.php(179): mysqli_query(Object(mysqli), 'SELECT `G_key`\n...')
+#1 /home2/zowtrakc/public_html/system/database/DB_driver.php(453): CI_DB_mysqli_driver->_execute('SELECT `G_key`\n...')
+#2 /home2/zowtrakc/public_html/system/database/DB_driver.php(299): CI_DB_driver->simple_query('SELECT `G_key`\n...')
+#3 /home2/zowtrakc/public_html/system/database/DB_active_rec.php(959): CI_DB_driver->query('SELECT `G_key`\n...')
+#4 /home2/zowtrakc/public_html/application/models/zt2016_limbo_model.php(13): CI_DB_active_record->get()
+#5 /home2/zowtrakc/public_html/application/helpers/zt2016_limbo_helper.php(152): Zt2016_limbo_model->match_key('limbo/zt2016_li...')
+#6 /home2/zowtrakc/public_html/application/controllers/limbo/zt2016_limbo.php(117): _createlistlimbolist(Array)
+#7 /home2/zowtrakc/public_html/application/controllers/limbo/zt2016_limbo.php(67): Zt2016_limbo->_getdircontent()
+#8 /home2/zowtrakc/public_html/application/controllers/limbo/zt2016_limbo.php(21): Zt2016_limbo->_display_limbo_page()
+#9 /home2/zowtrakc/public_html/system/core/CodeIgniter.php(359): Zt2016_limbo->index()
+#10 /home2/zowtrakc/public_html/index.php(201): require_once('/home2/zowtrakc...')
+#11 {main}
+  thrown in /home2/zowtrakc/public_html/system/database/drivers/mysqli/mysqli_driver.php on line 179
+[17-Apr-2023 05:09:48 America/Boise] PHP Warning:  include(application/errors/error_php.php): Failed to open stream: No such file or directory in /home2/zowtrakc/public_html/system/core/Exceptions.php on line 182
+[17-Apr-2023 05:09:48 America/Boise] PHP Warning:  include(): Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/zowtrakc/public_html/system/core/Exceptions.php on line 182
+[17-Apr-2023 05:09:48 America/Boise] PHP Warning:  include(application/errors/error_php.php): Failed to open stream: No such file or directory in /home2/zowtrakc/public_html/system/core/Exceptions.php on line 182
+[17-Apr-2023 05:09:48 America/Boise] PHP Warning:  include(): Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/zowtrakc/public_html/system/core/Exceptions.php on line 182
+[17-Apr-2023 05:09:48 America/Boise] PHP Warning:  include(application/errors/error_php.php): Failed to open stream: No such file or directory in /home2/zowtrakc/public_html/system/core/Exceptions.php on line 182
+[17-Apr-2023 05:09:48 America/Boise] PHP Warning:  include(): Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/zowtrakc/public_html/system/core/Exceptions.php on line 182
+[17-Apr-2023 05:09:48 America/Boise] PHP Warning:  include(application/errors/error_php.php): Failed to open stream: No such file or directory in /home2/zowtrakc/public_html/system/core/Exceptions.php on line 182
+[17-Apr-2023 05:09:48 America/Boise] PHP Warning:  include(): Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/zowtrakc/public_html/system/core/Exceptions.php on line 182
+[17-Apr-2023 06:06:50 America/Boise] PHP Deprecated:  Optional parameter $OngoingJobsdata declared before required parameter $ZOWuser is implicitly treated as a required parameter in /home2/zowtrakc/public_html/application/helpers/zt2016_tracking_helper.php on line 230
+[17-Apr-2023 06:06:50 America/Boise] PHP Deprecated:  Optional parameter $navtargeturl declared before required parameter $calendarmonth is implicitly treated as a required parameter in /home2/zowtrakc/public_html/application/helpers/zt2016_zowcalendar_helper.php on line 144
+[17-Apr-2023 06:06:50 America/Boise] PHP Deprecated:  Optional parameter $options declared before required parameter $EndDate is implicitly treated as a required parameter in /home2/zowtrakc/public_html/application/models/zt2016_entries_model.php on line 172
+[21-Apr-2023 05:28:34 America/Boise] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048584224 bytes) in /home2/zowtrakc/public_html/application/controllers/download/zt2016_download.php on line 153
+[21-Apr-2023 05:28:39 America/Boise] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048584224 bytes) in /home2/zowtrakc/public_html/application/controllers/download/zt2016_download.php on line 153
+[21-Apr-2023 05:28:59 America/Boise] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048584224 bytes) in /home2/zowtrakc/public_html/application/controllers/download/zt2016_download.php on line 153
+[21-Apr-2023 05:29:24 America/Boise] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048584224 bytes) in /home2/zowtrakc/public_html/application/controllers/download/zt2016_download.php on line 153
+[21-Apr-2023 05:29:28 America/Boise] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048584224 bytes) in /home2/zowtrakc/public_html/application/controllers/download/zt2016_download.php on line 153
+[21-Apr-2023 05:29:56 America/Boise] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048584224 bytes) in /home2/zowtrakc/public_html/application/controllers/download/zt2016_download.php on line 153
+[21-Apr-2023 05:29:59 America/Boise] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048584224 bytes) in /home2/zowtrakc/public_html/application/controllers/download/zt2016_download.php on line 153

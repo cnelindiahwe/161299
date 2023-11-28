@@ -1,0 +1,111 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/*
+| -------------------------------------------------------------------------
+| URI ROUTING
+| -------------------------------------------------------------------------
+| This file lets you re-map URI requests to specific controller functions.
+|
+| Typically there is a one-to-one relationship between a URL string
+| and its corresponding controller class/method. The segments in a
+| URL normally follow this pattern:
+|
+| 	example.com/class/method/id/
+|
+| In some instances, however, you may want to remap this relationship
+| so that a different class/function is called than the one
+| corresponding to the URL.
+|
+| Please see the user guide for complete details:
+|
+|	http://codeigniter.com/user_guide/general/routing.html
+|
+| -------------------------------------------------------------------------
+| RESERVED ROUTES
+| -------------------------------------------------------------------------
+|
+| There are two reserved routes:
+|
+|	$route['default_controller'] = 'welcome';
+|
+| This route indicates which controller class should be loaded if the
+| URI contains no data. In the above example, the "welcome" class
+| would be loaded.
+|
+|	$route['scaffolding_trigger'] = 'scaffolding';
+|
+| This route lets you set a "secret" word that will trigger the
+| scaffolding feature for added security. Note: Scaffolding must be
+| enabled in the controller in which you intend to use it.   The reserved 
+| routes must come before any wildcard or regular expression routes.
+|
+*/
+
+$route['default_controller'] = "main";
+
+$route['tracking'] = "tracking/tracking";
+
+$route['tracking/view/:any'] = "tracking/tracking/view";
+
+$route['addentry'] = "tracking/addentry";
+$route['editentry/:num'] = "tracking/editentry";
+$route['trashentry/:num'] = "tracking/trashentry";
+$route['updateentry/:num'] = "tracking/updateentry";
+
+$route['clients'] = "clients/clients";
+//$route['clients/newclient'] = "clients/clients/newclient";
+$route['clients/updateclient/:num'] = "clients/updateclient";
+$route['clients/editclient'] = "clients/editclient";
+$route['clients/editclient/:any'] = "clients/editclient";
+$route['clients/manageclientmaterials/:any'] = "clients/manageclientmaterials";
+$route['clients/trashentry/:num'] = "clients/trashentry";
+$route['clients/ajax_clientmaterialslist/:any'] = "clients/ajax_clientmaterialslist";
+$route['clients/ajax_downloadmaterials/:any'] = "clients/ajax_downloadmaterials";
+
+
+$route['contacts'] = "contacts/contacts";
+$route['contacts/editcontact/:num'] = "contacts/editcontact";
+$route['contacts/updatecontact/:num'] = "contacts/updatecontact";
+$route['contacts/viewclientcontacts/:num'] = "contacts/viewclientcontacts";
+$route['contacts/trashcontact/:num'] = "contacts/trashcontact";
+
+
+$route['reports'] = "reports/reports";
+$route['reports/clientreport/:any'] = "reports/clientreport";
+
+//$route['invoicing'] = "invoicing/invoicing";
+$route['invoicing'] = "invoicing/invoicing";
+$route['invoicing/clientinvoices/:any'] = "invoicing/clientinvoices";
+$route['invoicing/newinvoice/:any'] = "invoicing/newinvoice";
+$route['invoicing/viewinvoice/:any'] = "invoicing/viewinvoice";
+$route['invoicing/csvinvoice/:any'] = "invoicing/csvinvoice";
+$route['invoicing/invoiceogoneform/:any'] = "invoicing/invoiceogoneform";
+$route['invoicing/csvpastinvoice/:any'] = "invoicing/csvpastinvoice";
+
+$route['financials'] = "financials/financials";
+$route['financials/fin_breakdown/:num'] = "financials/fin_breakdown";
+
+$route['trash'] = "trash/trash";
+$route['deleteentry/:num'] = "trash/deleteentry";
+$route['untrashentry/:num'] = "trash/untrashentry";
+$route['trash/deleteclient/:num'] = "trash/deleteclient";
+$route['trash/untrashclient/:num'] = "trash/untrashclient";
+$route['trash/deletecontact/:num'] = "trash/deletecontact";
+$route['trash/untrashcontact/:num'] = "trash/untrashcontact";
+
+$route['export'] = "export/export";
+
+$route['dump'] = "dump/dump";
+
+
+$route['limbo'] = "limbo/limbo";
+$route['limbo/limbodir/:any'] = "limbo/limbodir";
+$route['limbo/deletelimbofile/:any'] = "limbo/deletelimbofile";
+$route['limbo/deletelimbodir/:any'] = "limbo/deletelimbodir";
+$route['limbo/downloadlimbofile/:any'] = "limbo/downloadlimbofile";
+
+
+$route['scaffolding_trigger'] = "";
+
+
+/* End of file routes.php */
+/* Location: ./system/application/config/routes.php */

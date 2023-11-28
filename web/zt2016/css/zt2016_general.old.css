@@ -1,0 +1,190 @@
+
+
+#main-content{
+	
+	margin-top:70px;
+}
+
+
+.error_msg {
+	color:#B00;
+}
+
+
+
+
+/* #################### bootstrap custom ######################## */
+
+
+		.top-buffer-10 {
+		  margin-top: 10px;
+		 }
+
+		.top-buffer-20 {
+		  margin-top: 20px;
+		 }
+
+		.bottom-buffer-10 {
+		  margin-bottom: 10px;
+		 }
+
+		.bottom-buffer-20 {
+		  margin-bottom: 20px;
+		 }
+
+	/* ################ forms ################*/ 
+
+		.form-control {
+			padding: 6px !important;	
+		}
+
+	/* ################ navbar-brand ################*/
+	
+	body .navbar-inverse .navbar-brand{
+		
+		color: #fff; 
+	}
+	
+	body .navbar-inverse .navbar-brand h1{
+		font-size:18px;
+		padding:0; 
+		position:fixed;
+	}
+
+
+	/* ################ panel ################*/
+	
+	.panel-primary .panel-heading small{
+		color: #ddf; 
+	}
+
+
+		.panel-heading .btn {
+		    margin-right: .5em;
+		}
+
+
+
+	/* ################ tabs ################*/
+
+		.tab-content {
+		  padding-top: 10px;
+		 }
+
+
+	/* ################ tabs ################*/
+
+		.guidelines {
+		  white-space:pre-line;
+		 }
+
+	/* ################ custom colored badges ################*/		 
+
+			.badge-danger {
+			background-color: #d9534f;
+			}
+			.badge-warning {
+			background-color: #f0ad4e;
+			}
+			.badge-success {
+			background-color: #5cb85c;
+			}
+			.badge-info {
+			background-color: #5bc0de;
+			}
+			.badge-inverse {
+			background-color: #333333;
+			}
+			
+	/* ################ custom colored rows ################*/		 
+
+			.panel-body .table>tbody>tr.disputed_invoice td {
+			background-color: #e5d7f1;
+			}
+
+
+	/* ################ modalss ################*/
+			.modal {
+			  text-align: center;
+			  padding: 0!important;
+			}
+
+			.modal:before {
+			  content: '';
+			  display: inline-block;
+			  height: 100%;
+			  vertical-align: middle;
+			  margin-right: -4px; /* Adjusts for spacing */
+			}
+
+			.modal-dialog {
+			  display: inline-block;
+			  text-align: left;
+			  vertical-align: middle;
+}
+
+
+
+	/* ################ callouts ################*/		 
+	/* http://cpratt.co/twitter-bootstrap-callout-css-styles */		 
+
+		.bs-callout {
+		    /*padding: 20px;*/		 
+		    padding:10px 20px 2px;
+		    margin: 20px 0;
+		    border: 1px solid #eee;
+		    border-left-width: 5px;
+		    border-radius: 3px;
+		}
+		.bs-callout h4 {
+		    margin-top: 0;
+		    margin-bottom: 5px;
+		}
+		.bs-callout p:last-child {
+		    margin-bottom: 0;
+		}
+		.bs-callout code {
+		    border-radius: 3px;
+		}
+		.bs-callout+.bs-callout {
+		    margin-top: -5px;
+		}
+		.bs-callout-default {
+		    border-left-color: #777;
+		}
+		.bs-callout-default h4 {
+		    color: #777;
+		}
+		.bs-callout-primary {
+		    border-left-color: #428bca;
+		}
+		.bs-callout-primary h4 {
+		    color: #428bca;
+		}
+		.bs-callout-success {
+		    border-left-color: #5cb85c;
+		}
+		.bs-callout-success h4 {
+		    color: #5cb85c;
+		}
+		.bs-callout-danger {
+		    border-left-color: #d9534f;
+		}
+		.bs-callout-danger h4 {
+		    color: #d9534f;
+		}
+		.bs-callout-warning {
+		    border-left-color: #f0ad4e;
+		}
+		.bs-callout-warning h4 {
+		    color: #f0ad4e;
+		}
+		.bs-callout-info {
+		    border-left-color: #5bc0de;
+		}
+		.bs-callout-info h4 {
+		    color: #5bc0de;
+		}
+		
+
+

@@ -1,0 +1,581 @@
+/* ################# general page specific ################# */
+
+
+	#pageOutput .zowtrakui-topbar, #pageInput .zowtrakui-topbar {
+		margin:0;
+		padding:.5em 1em;
+		height:2em;
+	}
+
+	a.activejob {font-weight:bold;}
+
+/* ################# login ################# */
+
+
+	body.welcome form {
+		text-align:left;
+		margin:0 auto;
+		width:17em;
+		padding-top:15%;
+		text-align:center;
+		}
+		
+	body.welcome fieldset {
+		border:0;
+		}
+	
+	body.welcome  input.text {margin:1em;border:0;background-color:#ddd;}	
+
+	
+	
+	body.welcome #msgbox {
+		width:30em;
+		margin: 0 auto;
+		color:#fff;
+		font-size:80%;
+		font-variant:small-caps;
+	}
+
+
+/* ################# trackingnew ################# */
+
+	
+			
+	/* ### Ongoing  ### */
+	#pageOutput{
+		border:0;
+		overflow:hidden;}
+	
+	#pageOutput #ongoing {margin:0;}
+	
+	#ongoing h3 a {border:0;display:inline;}
+	
+	#ongoing h3 a {border:0;display:inline;}
+
+
+	#ongoing a strong{
+
+		font-size:110%;
+	}
+	
+	#ongoing a {
+		margin:0;
+		padding-left:1em;
+		border-top:1px solid #333;
+		color:#fff;
+	}
+	
+		#ongoing a.tentative{
+			background-color:#aaa;
+			border-top:1px solid #666;
+			}
+			#ongoing a.tentative:hover{
+				background-color:#888;
+				border-top:1px solid #666;
+				}
+			#ongoing a.tentative.activejob{
+				background-color:#666;
+				}
+			
+	
+		#ongoing a.scheduled {
+			background-color:#669900;
+			border-top:1px solid #008800;
+			}
+			#ongoing a.scheduled:hover {
+				background-color:#447700;
+				}
+			#ongoing a.scheduled.activejob {
+				background-color:#225500;
+				}
+		#ongoing a.inprogress{
+			background-color:#CC9900;
+			border-top:1px solid #996600;
+			}
+			#ongoing a.inprogress:hover {
+				background-color:#bb8800;
+				}
+			#ongoing a.inprogress.activejob {
+				background-color:#aa7700;
+				}
+		#ongoing a.inproofing {
+			background-color:#AD3434;
+			border-top:1px solid #660000;
+			}
+			#ongoing a.inproofing:hover{
+				background-color:#9c2323;
+				}
+			#ongoing a.inproofing.activejob{
+				background-color:#803434;
+				}
+			
+	#ongoing a.showtentative,#ongoing a.hidetentative {
+		display:inline;
+		color:blue;
+		border:0;
+	}		
+	
+	/* ### pastJobs  ### */
+	
+	#pastJobs {margin:0;}
+	
+	
+		#pastJobs table {
+			border:0;
+			border-collapse:collapse !important;
+			position:relative;
+			
+			}
+				
+			#pastJobs td, #pastJobs th {
+				padding:.2em 1em;
+				text-align:center;
+			}
+		
+			#pastJobs th {
+				background-color:#ddd;
+				color:#666;
+				font-weight:normal;
+				font-style:italic;
+				white-space:nowrap;
+			}		
+		
+				#pastJobs .tableheaderhighlight {
+					background-color:#ccc !important;
+					cursor:pointer;
+				}
+		
+				#pastJobs thead tr .header:hover, #pastJobs thead tr .header:hover {
+					color:#fff;
+					cursor: pointer;
+				}
+			#pastJobs thead tr .header {
+				background-image: url(../../web/img/sprites/table_sort_sprites.gif);
+				background-repeat: no-repeat;
+				background-position:1.2em 5px;
+		
+			}
+		
+				 #pastJobs thead tr .headerSortUp  {
+					background-position:1.2em -25px;
+					background-color:#bbb;			}
+				 #pastJobs thead tr .headerSortDown {
+					background-position:1.2em -55px;
+					background-color:#bbb;
+				}	
+					
+					
+			#pastJobs tbody {
+					height:100%;
+					overflow-y:scroll;
+					overflow-x:hidden;
+					}		
+		
+				.tracking #calendar tbody {
+					overflow:auto;
+					}		
+		
+		
+			/*Shaded rows*/		
+				#pastJobs tr.even {
+					background-color:#f1f1fd;
+					}
+		
+			/*Shaded rows*/		
+				#pastJobs tr.current {
+					background-color:#009900;
+					color:white;
+					}
+		
+		
+		
+			#pastJobs td,#pastJobs th {
+				padding:.25em 1em;
+				border:0;
+				text-align:left;
+				}		
+		
+			#pastJobs td {
+				text-align:left;
+				height:2em !important;
+				}		
+				#pastJobs table td.activejob{
+					background-color:#ccc;
+					}
+	
+				#pastJobs td a {
+				display:block;
+				text-decoration:none;
+				color:#555;
+				}
+					#pastJobs table td.activejob a{
+						font-weight:bold;
+						color:#222;
+						}
+			#pastJobs .slides {
+				text-align:center;
+				
+				}
+
+			
+
+			
+	/* ################# traveller ################# */		
+			
+		.traveller {
+			position:absolute !important;
+			top:5em;
+			left:12em;
+			width:640px;
+			background-color:#ccddcc;
+			padding:0;
+			-moz-box-shadow: 0px 8px 14px  #555;
+			-webkit-box-shadow: 0px 8px 14px #555;
+			box-shadow: 0px 8px 14px #555;
+			-moz-border-radius:8px;
+			-webkit-border-radius: 8px;
+			}
+		.traveller .formbuttons  {
+			height:2.7em;
+			margin-top:0;
+			clear:right;
+			padding-top:.5em;
+			
+			-moz-border-radius-topright:8px;
+			-webkit-border-top-right-radius: 8px;
+			border-top-right-radius: 8px;
+			-moz-border-radius-topleft:8px;
+			-webkit-border-top-left-radius: 8px;
+			border-top-left-radius: 8px;
+
+	}
+	.traveller form h1 {
+			color:#34566f;
+			padding:.4em .8em;
+			margin:0;
+			font-size:1.4em;
+			float:left;
+			color:#fff;
+		}
+
+		.traveller .formbuttons a  {
+		display:block;
+		float:left;
+		color:white;
+		padding:.25em .5em;
+		margin-top:.5em;
+		margin-right:.5em;
+		}
+	.traveller form input.submitButton {
+		top:.3em;
+	}
+
+	.traveller .formbuttons a:hover {
+		background-color:#253c4e;
+	}		
+	
+	.traveller #entryForm input, .traveller #entryForm select, .traveller #entryForm textarea{
+		color:#333;
+		background-color:#e0f3e0;
+	}
+	.traveller #entryForm input{
+		border-color:#e0f3e0;
+	}
+	
+
+		.traveller .EntryClient	{
+			width:250px;
+		}	
+		
+		.traveller .TimeZoneIn	{
+			margin:0;
+		}	
+
+	.traveller label, .traveller .viewdatein {color:#6e776e;font-size:85%;}
+	
+		.traveller label[for=ClientNotes],
+		.traveller label[for=ContactNotes],
+		.traveller label[for=ZOWNotes]{
+			display:block;
+			width:550px;
+		}
+	
+	.traveller form#entryForm input.submitButton {
+		margin:.8em 4em 0 0;
+		background-color:#426d8d;
+		border:1px solid #426d8d;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	
+	.traveller form#entryForm input.submitButton:hover {
+		background-color:#253c4e;
+		border:1px solid #253c4ef;
+	}
+	
+	.traveller form#entryForm fieldset div {
+		float:left;
+	}
+	
+	.traveller .FileName {
+		width:590px;
+	}
+	
+		.traveller .Originator {
+		width:15.5em;
+	}
+	
+	.traveller .viewdatein{
+		clear:both;
+		display:block;
+		margin:2em 0 0 1.25em;
+	}
+	
+	.TimeZoneOut,.TimeZoneIn{
+		width:90px;
+	}
+	.notesfield{
+		width:100%;
+	}
+	
+	.traveller form a.cancelEdit {float:right;}
+	
+	.traveller	.clientmaterials
+		{
+			margin: .25em 1em;
+			border: 0;
+			color:#333;
+		}
+						
+	.traveller .loading {
+						background-image:url(../../web/img/anims/loading.gif);
+						}
+	
+	
+		
+	.loading {height:200px;
+						background-image:url(../../web/img/anims/loading.gif);
+						border:1px solid red;}
+						
+						
+						
+	.time-picker {
+		position:absolute;
+		overflow:auto;
+		height:7em;
+		width:4.5em;
+		background-color:#fff;
+		cursor:pointer;}						
+						
+	.time-picker .selected{
+
+		background-color:#dfdfdf;
+		}
+						
+#activeContacts {
+	float:left;
+}
+	#activeContacts p{
+		font-size:85%;
+		font-style:italic;
+		color:#333;
+		padding-left:1em;
+	}
+
+
+	#activeContacts ul{
+		padding:.2em .9em;
+		margin:0;
+		list-style:none;
+	}
+		#activeContacts li{
+			padding:.2em .1em;
+		}
+			#activeContacts li.highlight{
+				background-color:#dfdfdf;
+			}
+	
+		#activeContacts li a{
+			color:#444;
+		}
+
+			
+	/* ################# month view ################# */		
+	
+		#monthview  tr {
+			border-bottom:1px solid #ddd;
+		}
+			#monthview  tr.weekdays {
+				color: #aaa;
+				font-style:italic;
+			}
+	
+		#monthview  td {
+			width:10em;
+			vertical-align:top;
+			}
+			
+		.CalendarDay {color:#aaa;}
+
+
+	/* ################# clients ################# */		
+	
+		#clientcontrol {padding:0;}
+		
+		.yearpile {
+			float:left;
+			padding-left:1em;
+			line-height:1.5em;
+			width:250px;}
+		
+		.clients #basicdata {
+			
+			line-height:1.5em;}
+		
+		
+		/* ################# edit clients ################# */		
+		
+			
+			h4 a {
+				font-weight:normal;
+				font-size:85%;
+				}
+			fieldset.VolDiscount1Trigger, fieldset.RetainerHours {clear:left;}
+
+			#clientform {
+				padding-bottom:4em;
+			}
+			
+			.edit.clients fieldset.formbuttons {
+				position:absolute;
+				top:1.5em;
+				left: 26em;
+
+			}	
+
+			.edit.clients .canceledits {
+				margin-left:7em;
+			}	
+			
+			h4.formdiv { 
+				margin-top:20px;
+				border-top:2px solid white; }
+			
+			#basicdata, #clientcontacts, .formdiv {margin-left:1em;}
+	
+			#basicdata, #clientcontacts, #clientmaterials {
+				float:left; 
+				width:310px;
+				height:330px;
+				overflow-y:auto;
+				margin-right:5px;
+				}
+			#clientform	div {
+				
+				width:320px;
+				float:left;
+				margin-right:30px;
+			}
+	
+	
+	
+	/* ################# contacts ################# */		
+		.sidebar {width:150px;float:left;background-color:#fff;}
+			.sidebar a {display:block;}
+			
+			#contactForm { margin-top:4em;}
+			#contactForm fieldset, #contactForm h4{clear:none;}
+			.clearfix {clear:both;}
+			
+			
+	/* ################# reports ################# */		
+	
+		.monthtotal {
+			margin-left:1em;
+			clear:both;
+			border-top:1px solid #aaa;
+			}
+
+		.monthtotal h3,	.monthtotal p,	.monthtotal table, .monthtotal .monthmore,.monthtotal .monthhide {
+			width:500px;
+			float:left;clear:left;
+			}
+			
+		#pageOutput  .monthtotal table td, #pageOutput .monthtotal table tbody th{
+		font-size:95%;
+			padding:.1em .2em;
+			height:auto !important;
+			}
+		#pageOutput  .monthtotal table td{
+			text-align:center;
+			}	
+		#pageOutput .monthtotal table tbody th{
+			text-align:right;
+		}			
+		#pageOutput .monthtotal	.visualize  {
+				top:6em;
+				margin-left:530px;
+				font-size:80%;
+			}
+			
+		#sixmonthdata	.visualize  {
+				margin-left:4em;
+			}		
+
+	/* ################# client report ################# */		
+	
+		.clientreportlayout {
+			margin-left:1em;
+			}
+
+	
+	/* ################# invoicing ################# */		
+			.invoicing .invoices {margin-left:1em;}
+			.invoices h5 {margin:.5em 0 .5em}
+			.invoices p {margin-left:1em}
+			/* ################# new invoice ################# */		
+			
+					.invoicing #StartDate, 
+					.invoicing #EndDate
+					{width:6em;}
+					
+					.invoicing #InvoiceNumber
+					{width:6.5em;}	
+					
+	/* ################# fin-totals ################# */
+	
+	/* ################# limbo ################# */		
+			#limbodir {
+				padding-left:1em;
+			}
+				#limbodir img {
+					display:block;
+					float:left;
+					margin-right:.5em;
+					margin-top:-2px;
+				}
+			.limbo .zowtrakui-topbar input[type="submit"],
+			.manage_client_materials .zowtrakui-topbar input[type="submit"]
+			{
+				display:inline;
+				float:none;	
+			}
+			#pageOutput #limbodir  .diritem {
+				margin-left:1.3em;
+				clear:all;
+				padding-left:1.3em;
+				clear:all;
+				height:1.6em;
+				margin-top:.25em;
+			}
+			.limbo  .diritem a {
+				display:block;
+				float:left;
+			}
+
+			.limbo #fileuploadname,
+			 #fileuploadname {
+				background-color:#fff;
+			}			
+
+							

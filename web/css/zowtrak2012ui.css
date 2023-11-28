@@ -1,0 +1,144 @@
+/* ################# Top bar  ################# */
+.zowtrakui-topbar {
+	height:2em;
+	padding:.35em ;
+	clear:left;
+}
+	.zowtrakui-topbar h1 {
+		margin:.25em 1em 0 0;
+		float:left;
+		font-size:1.2em;
+	}
+		.zowtrakui-topbar h1 em{
+				font-weight:normal;
+				font-style:normal;
+				font-size:80%;
+			}
+	.zowtrakui-topbar h2 {
+		margin:.3em 1em 0 0;
+		float:left;
+		font-size:1.2em;
+	}
+		.zowtrakui-managerbar a, .zowtrakui-topbar a,.zowtrakui-topbar input[type="submit"] {
+			display:block;
+			float:left;
+			margin:.2em 1em 0 0;
+			padding:0 1em;
+			line-height:1.6em;
+			font-size:100%;
+		}	
+			.zowtrakui-topbar input[type="submit"] {
+			/*display:inline;
+			float:none;*/
+			
+		}	
+
+		.zowtrakui-topbar input[type="submit"] {
+			font-size:80%;
+			padding:.3em 1em;
+		}	
+
+
+		.zowtrakui-managerbar .logout,
+		.zowtrakui-topbar .logout {
+			float:right;
+		}
+		.zowtrakui-managerbar .logout{
+			margin-right:2em;
+		}	
+	.zowtrakui-topbar form {
+		float:left;
+		padding:0;
+	}
+		.zowtrakui-topbar form fieldset{
+			margin:0;
+			padding:0;
+		}
+		
+		.zowtrakui-topbar form label{
+			display:inline;
+			margin:0;
+			line-height:32px;
+		}
+
+/* ################# Manager bar  ################# */
+.zowtrakui-managerbar {
+	height:1.8em;
+	padding:.15em ;
+	margin:0;
+}
+		.zowtrakui-managerbar a {
+			margin:.2em 1em 0 0;
+			padding:0 1em;
+			line-height:1.6em;
+			font-size:100%;
+			border:0;
+		}	
+
+
+/* ################# general interface (colors) ################# */
+.zowtrakui-managerbar  {
+	background-color: #0099FF;/*#60809F;*/
+}
+
+
+.zowtrakui-topbar  {
+	background-color:#60809F;/* #0099FF;*/
+}
+
+	.zowtrakui-topbar h1 {
+		color:#34566f;
+		color:#fff;
+	}
+	
+	.zowtrakui-topbar h2 {
+		color:#34566f;
+		color:#fff;
+	}
+	
+	.zowtrakui-topbar form label{
+		color:#fff;
+	}
+		.zowtrakui-managerbar a, .zowtrakui-topbar a, .zowtrakui-topbar input[type="submit"], input[type="submit"]{
+			color:#fff;
+			background-color:#426d8d;
+		}
+	
+
+
+		.zowtrakui-managerbar a:hover, .zowtrakui-topbar a:hover, .zowtrakui-topbar input[type="submit"]:hover,input[type="submit"]:hover{
+			background-color:#253c4e;
+		}
+
+
+/* ################# general interface (css3) ################# */
+.zowtrakui-topbar {
+background-image: linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+background-image: -o-linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+background-image: -moz-linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+background-image: -webkit-linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+background-image: -ms-linear-gradient(bottom, rgb(102,174,212) 15%, rgb(74,136,180) 93%);
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.15, rgb(102,174,212)),
+	color-stop(0.93, rgb(74,136,180))
+);
+
+}
+
+.zowtrakui-managerbar a,.zowtrakui-topbar a, .zowtrakui-topbar input[type="submit"],input[type="submit"]{
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+		
+/* ################# tables ################# */
+
+		/*Shaded rows*/		
+			#pageOutput tr.even {
+				background-color:#ddd;
+				}				
+
+.monthmore, .monthhide {font-size:85%; font-weight:normal;}

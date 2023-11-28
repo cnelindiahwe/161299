@@ -1,0 +1,32 @@
+
+#contacts_lists_table_filter {
+	    text-align:left;	
+}
+
+#contacts_lists_table_filter label{
+	    margin-left:-10px;	
+}
+
+#contacts_lists_table_filter input{
+	    margin-left:10px;	
+}
+
+#contacts_lists_table_info {
+	    text-align:right;
+}
+
+#contacts_lists_table_length,
+#contacts_lists_table_paginate{
+	    text-align:center;
+	    margin-bottom:10px;	
+}
+
+#contacts_lists_table_paginate{
+	    text-align:center;
+	    margin-bottom:10px;	
+}
+
+.inactive-contact td {
+	color:#ff0000;
+	text-decoration: line-through;
+}

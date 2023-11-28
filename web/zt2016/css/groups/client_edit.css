@@ -1,0 +1,18 @@
+label {
+	font-size: 85%;
+	color:#888;
+}
+
+input, textarea, select  {
+	margin-bottom:1em;
+}
+
+
+.item-group {
+	min-width: 100%;
+	background-color: #f9f9f9;
+	border-radius: 4px 4px 0 0;
+	float:left;
+	padding-bottom:1em;
+	margin-bottom:2em;
+}

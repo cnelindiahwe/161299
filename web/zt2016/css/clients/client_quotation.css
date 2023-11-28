@@ -1,0 +1,15 @@
+label {
+	font-size: 85%;
+	color:#888;
+}
+
+.col-centered{
+    text-align: center;
+	padding-top:.5em;
+}
+
+#total-billed-hours h4{
+	padding:1em 0;
+	font-weight: bold;
+	
+}
